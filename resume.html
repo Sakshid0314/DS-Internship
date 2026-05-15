@@ -1,0 +1,243 @@
+# Resume HTML + CSS Code (Without Photo)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sakshi Deote Resume</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f3f4f6;
+      padding: 30px;
+      color: #333;
+    }
+
+    .resume {
+      max-width: 900px;
+      margin: auto;
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .top-section {
+      background: #1f2937;
+      color: white;
+      padding: 35px;
+      text-align: center;
+    }
+
+    .top-section h1 {
+      font-size: 38px;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+    }
+
+    .top-section h3 {
+      font-weight: 400;
+      margin-bottom: 18px;
+      color: #d1d5db;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      font-size: 14px;
+    }
+
+    .main-content {
+      padding: 35px;
+    }
+
+    .section {
+      margin-bottom: 35px;
+    }
+
+    .section-title {
+      font-size: 22px;
+      color: #111827;
+      margin-bottom: 18px;
+      border-left: 5px solid #2563eb;
+      padding-left: 10px;
+    }
+
+    .item {
+      margin-bottom: 20px;
+    }
+
+    .item h4 {
+      font-size: 18px;
+      margin-bottom: 5px;
+      color: #1f2937;
+    }
+
+    .item span {
+      font-size: 14px;
+      color: #6b7280;
+    }
+
+    .item p {
+      margin-top: 8px;
+      line-height: 1.7;
+      color: #4b5563;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .skill {
+      background: #e0e7ff;
+      color: #1e3a8a;
+      padding: 10px 16px;
+      border-radius: 25px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 12px;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .top-section h1 {
+        font-size: 28px;
+      }
+
+      .main-content {
+        padding: 20px;
+      }
+
+      .contact-info {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="resume">
+
+    <!-- Header -->
+    <div class="top-section">
+      <h1>SAKSHI DEOTE</h1>
+      <h3>AI & DS Engineer</h3>
+
+      <div class="contact-info">
+        <div>📞 8080928126</div>
+        <div>📧 deotesakshi@gmail.com</div>
+        <div>📍 Katol, Maharashtra</div>
+        <div>🔗 linkedin.com/in/sakshi-deote-346790241</div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+
+      <!-- Education -->
+      <div class="section">
+        <h2 class="section-title">Education</h2>
+
+        <div class="item">
+          <h4>Secondary School Certificate (SSC)</h4>
+          <span>Benarasidas Ruiya High School, Katol | 2018 - 2019</span>
+        </div>
+
+        <div class="item">
+          <h4>Higher Secondary Certificate (HSC)</h4>
+          <span>Nabira Mahavidyalaya Katol | 2019 - 2021</span>
+        </div>
+
+        <div class="item">
+          <h4>B.Tech in Artificial Intelligence & Data Science</h4>
+          <span>Priyadarshini College of Engineering, RTMNU Nagpur | 2021 - 2025</span>
+        </div>
+      </div>
+
+      <!-- Internships -->
+      <div class="section">
+        <h2 class="section-title">Training & Internships</h2>
+
+        <div class="item">
+          <h4>Android Developer - Google</h4>
+          <span>EduSkills Foundation - AICTE | 2023 - 2024</span>
+          <p>
+            Worked on Android application development and learned the fundamentals
+            of building mobile applications for Android devices.
+          </p>
+        </div>
+
+        <div class="item">
+          <h4>UI Path RPA Developer</h4>
+          <span>EduSkills Foundation - AICTE | Apr 2024 - Jun 2024</span>
+          <p>
+            Learned Robotic Process Automation (RPA) concepts and developed
+            automation workflows using UI Path.
+          </p>
+        </div>
+
+        <div class="item">
+          <h4>Data Analysis</h4>
+          <span>Infosys | Jun 2024 - Jul 2024</span>
+          <p>
+            Gained knowledge of data analysis techniques, visualization,
+            and data interpretation.
+          </p>
+        </div>
+      </div>
+
+      <!-- Skills -->
+      <div class="section">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills">
+          <div class="skill">Python</div>
+          <div class="skill">SQL</div>
+          <div class="skill">Excel</div>
+          <div class="skill">Power BI</div>
+          <div class="skill">Data Science</div>
+          <div class="skill">Artificial Intelligence</div>
+          <div class="skill">C Programming</div>
+        </div>
+      </div>
+
+      <!-- Achievements -->
+      <div class="section">
+        <h2 class="section-title">Achievements & Certifications</h2>
+
+        <ul>
+          <li>Udemy Course Completion - Hosting Multiple Domains</li>
+          <li>Udemy Course Completion - PHP For Beginners 2023 : Complete PHP MySQL PDO Course</li>
+          <li>Tata Imagination Challenge 2023 - TATA Group</li>
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+</html>
+```

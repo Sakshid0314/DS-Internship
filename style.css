@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 40px 20px;
+}
+
+.resume-container {
+    max-width: 850px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-top: 8px solid #2c3e50;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.job-title {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact-info {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    text-transform: uppercase;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+.entry {
+    margin-bottom: 20px;
+}
+
+.entry-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.company {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+ul {
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Skills Layout */
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-category {
+    background: #ecf0f1;
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+/* Print Optimization */
+@media print {
+    body {
+        background-color: white;
+        padding: 0;
+    }
+    .resume-container {
+        box-shadow: none;
+        border: none;
+        width: 100%;
+    }
+}
